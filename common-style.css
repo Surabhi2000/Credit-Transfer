@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: antiquewhite;
+}
+
+::-webkit-scrollbar-track {
+    background-color: grey;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    z-index: 2;
+    height: 5vw;
+    width: 12vw;
+}
